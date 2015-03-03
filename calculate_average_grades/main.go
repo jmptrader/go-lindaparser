@@ -54,10 +54,10 @@ func main() {
 	examsG := getFilteredExams(exams, "G")
 	examsH := getFilteredExams(exams, "H")
 
-	fmt.Println("Grundstudium:\n")
+	fmt.Print("Grundstudium:\n\n")
 	printExams(examsG)
 
-	fmt.Println("\n\nHauptstudium:\n")
+	fmt.Print("\n\nHauptstudium:\n\n")
 	printExams(examsH)
 }
 
